@@ -14,3 +14,8 @@ function myFunction() {
         btn.innerHTML = "Play";
     }
 }
+
+
+$("img").mouseover(function(){
+    $("img").zoom("", "");
+});

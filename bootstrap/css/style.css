@@ -168,3 +168,18 @@ html, body
     background: #ddd;
     color: black;
 }
+
+
+.bg {
+    background-image: url("../../img/MMAcage.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height : 100%;
+    background-position: center;
+    padding-top: 100px;
+}
+
+h1
+{
+    color: white;
+}
