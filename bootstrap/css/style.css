@@ -183,3 +183,16 @@ h1
 {
     color: white;
 }
+
+.rouge
+{
+    background-color: red;
+}
+
+hr{
+    padding-bottom:10px;
+    padding-top:10px;
+    max-width: 300px;
+    border-width: 3px;
+    border-color: purple;
+}

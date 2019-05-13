@@ -28,13 +28,92 @@
                 <li class="nav-item"><a class="nav-link" href="page2.html">Champions</a></li>
                 <li class="nav-item"><a class="nav-link" href="page3.html">Prochains événements</a></li>
                 <li class="nav-item"><a class="nav-link" href="page4.html">Règlements</a></li>
-                <li class="nav-item active"><a class="nav-link" href="page5.html">Records<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item active"><a class="nav-link" href="page5.html">Questions<span class="sr-only">(current)</span></a></li>
 
             </ul>
         </div>
     </nav>
 </header>
 
+<div class="container text-center">
+    <form action="#exampleModal" method="get">
+        <div class="container">
+            <h2 class="text-center">Question ?</h2>
+            <form>
+                <div class="form-group">
+                    <label for="Prénom">Prénom:</label>
+                    <input type="text" class="form-control" id="Prénom" placeholder="Entrez prénom">
+                </div>
+
+                <div class="form-group">
+                    <label for="Nom">Nom:</label>
+                    <input type="text" class="form-control" id="Nom" placeholder="Entrez nom">
+                </div>
+
+                <div class="form-group">
+                    <label for="Pays">Pays:</label>
+                    <input type="text" class="form-control" id="Pays" placeholder="Pays">
+                </div>
+
+                <div class="form-group">
+                    <label for="Demande d'aide">Qui êtes vous ?</label>
+                    <select id="Demande d'aide" class="form-control">
+                        <option selected>CHOISIR...</option>
+                        <option>Famille/Amis (Spécifiez type de relation.)</option>
+                        <option>Journaliste (Spécifiez le nom du journal.)</option>
+                        <option>Fans</option>
+                        <option>Autre (Spécifiez qui vous êtes.)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Specification">Spécifiez:</label>
+                    <input type="text" class="form-control" id="Specification" placeholder="Spécifiez">
+                </div>
+
+                <div class="form-group">
+                    <label for="Objet de la demande">Objet de la demande:</label>
+                    <input type="text" class="form-control" id="Objet de la demande" placeholder="Objet de la demande">
+                </div>
+
+                <div class="form-group">
+                    <label for="Contact">Qui voulez-vous contacter:</label>
+                    <input type="text" class="form-control" id="Contact" placeholder="Contact">
+                </div>
+
+                <div class="form-group">
+                    <label for="Question">Question / Commentaire:</label>
+                    <textarea class="form-control" id="Question" rows="10"></textarea>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Urgent
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Important
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                    <label class="form-check-label" for="exampleRadios3">
+                        Peut Attendre
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="reset" value="Reset" class="btn btn-info">Effacer</button>
+            <a type="submit" value="Submit" class="btn btn-primary" href="page3.html">Enregistrer</a>
+        </div>
+    </form>
+</div>
 
 
 
