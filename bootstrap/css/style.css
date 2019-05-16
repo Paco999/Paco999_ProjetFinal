@@ -172,14 +172,24 @@ html, body
 
 .bg {
     background-image: url("../../img/MMAcage.jpg");
-    background-size: 150%;
-    background-repeat: no-repeat;
     height : 100%;
+    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+}
+.bg2 {
+    background-image: url("../../img/GrandSlams.jpg");
+    height : 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     padding-top: 100px;
 }
 
-h1
+h2
 {
     color: white;
 }
@@ -189,10 +199,32 @@ h1
     background-color: red;
 }
 
-hr{
+hr
+{
     padding-bottom:10px;
     padding-top:10px;
     max-width: 300px;
     border-width: 3px;
     border-color: purple;
+}
+
+h3
+{
+    color: white;
+}
+
+.noir
+{
+    background-color: black;
+}
+
+
+.top
+{
+    padding-top: 30px;
+}
+
+.bottom
+{
+    padding-bottom: 30px;
 }
