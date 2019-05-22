@@ -195,6 +195,10 @@ h3
     padding-bottom: 30px;
 }
 
+.left{
+    padding-left: 30px;
+}
+
 .bg3
 {
     background-image: url("../../img/lakeRink.jpg");
