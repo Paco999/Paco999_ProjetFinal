@@ -132,44 +132,6 @@ html, body
     background-color: #ffffff;
 }
 
-/* VIDEO */
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
-
-#myBtn:hover {
-    background: #ddd;
-    color: black;
-}
-
-
 .bg {
     background-image: url("../../img/MMAcage.jpg");
     height : 100%;
@@ -223,6 +185,10 @@ h3
 {
     padding-top: 30px;
 }
+.top2
+{
+    padding-top: 150px;
+}
 
 .bottom
 {
@@ -249,4 +215,62 @@ h3
     background-attachment: fixed;
     background-size: cover;
     padding-top: 100px;
+}
+
+/* ZOOM */
+
+.zoom {
+    padding: 100px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../../img/hardCourt.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../../img/clayCourt.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../../img/grassCourt.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p2{
+    color: yellow;
 }

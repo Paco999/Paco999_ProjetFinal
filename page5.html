@@ -36,35 +36,33 @@
 </header>
 
 <div class="container text-center">
-    <form action="#exampleModal" method="get">
-        <div class="container">
-            <h2 class="text-center">Question ?</h2>
             <form>
-                <div class="form-group">
-                    <label for="Prénom">Prénom:</label>
-                    <input type="text" class="form-control" id="Prénom" placeholder="Entrez prénom">
+                <div class="form-row">
+                    <div class="form-group col-xl-6">
+                        <label for="Prénom">Prénom:</label>
+                        <input type="text" class="form-control" id="Prénom" placeholder="Entrez prénom">
+                    </div>
+
+                    <div class="form-group col-xl-6">
+                        <label for="Nom">Nom:</label>
+                        <input type="text" class="form-control" id="Nom" placeholder="Entrez nom">
+                    </div>
+                    <div class="form-group col-xl-6">
+                        <label for="Ville">Ville:</label>
+                        <input type="text" class="form-control" id="Ville" placeholder="Ville">
+                    </div>
+                    <div class="form-group col-xl-6">
+                        <label for="Pays">Pays</label>
+                        <select id="Pays" class="form-control">
+                            <option selected>CHOISIR...</option>
+                            <option>Canada</option>
+                            <option>États-Unis</option>
+                            <option>France</option>
+                            <option>Autre</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="Nom">Nom:</label>
-                    <input type="text" class="form-control" id="Nom" placeholder="Entrez nom">
-                </div>
-
-                <div class="form-group">
-                    <label for="Ville">Ville:</label>
-                    <input type="text" class="form-control" id="Ville" placeholder="Ville">
-                </div>
-
-                <div class="form-group">
-                    <label for="Pays">Pays</label>
-                    <select id="Pays" class="form-control">
-                        <option selected>CHOISIR...</option>
-                        <option>Canada</option>
-                        <option>États-Unis</option>
-                        <option>France</option>
-                        <option>Autre</option>
-                    </select>
-                </div>
 
                 <div class="form-group">
                     <label for="Objet de la demande">Objet de la demande:</label>
@@ -101,8 +99,6 @@
                         Peut Attendre
                     </label>
                 </div>
-            </form>
-        </div>
         <div class="modal-footer">
             <button type="reset" value="Reset" class="btn btn-info">Effacer</button>
             <a type="submit" value="Submit" class="btn btn-primary" href="page5.html">Envoyer</a>
@@ -129,7 +125,7 @@
             </div>
             <div class="col-1">
                 <a href="https://www.ufc.tv/page/fightpass" target="_blank">
-                    <img src="img/UFCFightPass.png" height="35px"/>
+                    <img src="img/UFCFightPass_Square.png" height="35px"/>
                 </a>
             </div>
             <div class="col-1">
