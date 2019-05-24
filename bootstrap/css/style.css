@@ -224,13 +224,13 @@ h3
 /* ZOOM */
 
 .zoom {
-    padding: 100px;
+    padding: 75px;
     transition: transform .2s; /* Animation */
     margin: 0 auto;
 }
 
 .zoom:hover {
-    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .parallax {
@@ -277,4 +277,30 @@ h3
 
 p2{
     color: yellow;
+}
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    .bg2 {
+        background-image: url("../../img/CoupeRogers.jpg");
+        height : 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-attachment: fixed;
+        padding-top: 100px;
+    }
+
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .bg3
+    {
+        background-image: url("../../img/CentreBell.jpg");
+        height : 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        padding-top: 100px;
+    }
+
 }
