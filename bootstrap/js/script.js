@@ -134,31 +134,32 @@ $("#boutonBellatorUFC").click(function() {
     }
 });
 
-AOS.init();
-// below listed default settings
-AOS.init({
-    // Global settings:
-    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-    startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-    initClassName: 'aos-init', // class applied after initialization
-    animatedClassName: 'aos-animate', // class applied on animation
-    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-
-    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-    offset: 120, // offset (in px) from the original trigger point
-    delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 400, // values from 0 to 3000, with step 50ms
-    easing: 'ease', // default easing for AOS animations
-    once: false, // whether animation should happen only once - while scrolling down
-    mirror: false, // whether elements should animate out while scrolling past them
-    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+$("#boutonDark").click(function(){
+    var texte = $('#boutonDark').text();
+    if (texte === "Mode Foncé")
+    {
+        $("#boutonDark").text("Mode Clair");
+        $(".row").css("background-color","black");
+        $(".row").css("color","white");
+    }
+    if (texte === "Mode Clair")
+    {
+        $("#boutonDark").text("Mode Foncé");
+        $(".row").css("background-color","white");
+        $(".row").css("color","black");
+    }
 
 });
 
-$("#boutonDark").click(function(){
-    $("p").css("background-color", "blue");
+$("#boutonBio").click(function(){
+    $("p").html("Adolescent rebelle, Éric Gagné a quitté le domicile familial de Mascouche à l'âge de 15 ans dans " +
+        "l'espoir de devenir un lanceur de baseball professionnel. Expulsé du programme d'excellence de la " +
+        "fédération québécoise et ignoré au repêchage par toutes les équipes des ligues majeures, il a " +
+        "miraculeusement été embauché par un recruteur des Dodgers de Los Angeles qui croyait en lui. Quelques " +
+        "années plus tard, contre toute attente, il est instantanément devenu une méga-star et l'un des plus " +
+        "redoutables releveurs de l'histoire du baseball majeur. Entre 2002 et 2004, il a dominé comme aucun autre " +
+        "lanceur ne l'avait fait auparavant, ce qui lui a valu la conquête du prestigieux trophée Cy Young et la " +
+        "réalisation de 84 sauvetages consécutifs, un record qui ne sera probablement jamais battu. Dans l'univers " +
+        "ultra-compétitif du baseball professionnel, et à une époque tristement associée à une consommation " +
+        "généralisée de produits dopants, Gagné est toutefois passé comme une étoile filante.\n");
 });
